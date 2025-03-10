@@ -13,9 +13,6 @@ public class Category {
     @JsonProperty("children")
     List<Category> children;
 
-    public Category() {
-    }
-
     public Category(int id, String name) {
         this.id = id;
         this.name = name;

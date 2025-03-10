@@ -9,7 +9,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-
 public class CategoryTree {
     private final Map<Integer, Category> categoryMap = new HashMap<>();
     private final Map<Integer, List<Integer>> relationMap = new HashMap<>();

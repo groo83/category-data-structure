@@ -4,8 +4,6 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import org.example.category.Category;
 import org.example.category.CategoryTree;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
         CategoryTree categoryTree = new CategoryTree();
@@ -23,8 +21,8 @@ public class Main {
         categoryTree.add(9, AnonymousBord);
         categoryTree.add(9, 11, "로제");
 
-
         try {
+            // 검색으로 json string get
             System.out.println(categoryTree.toJSON(1));
             System.out.println("================================");
             System.out.println(categoryTree.toJSON(8));
